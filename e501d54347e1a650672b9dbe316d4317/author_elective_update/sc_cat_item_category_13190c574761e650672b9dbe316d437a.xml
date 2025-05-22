@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Request One PC">44328c1f4721e650672b9dbe316d4321</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-21 14:16:35</sys_created_on>
+        <sys_id>13190c574761e650672b9dbe316d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Request One PC</sys_name>
+        <sys_package display_value="Request One PC" source="x_1756219_reques_0">e501d54347e1a650672b9dbe316d4317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request One PC">e501d54347e1a650672b9dbe316d4317</sys_scope>
+        <sys_update_name>sc_cat_item_category_13190c574761e650672b9dbe316d437a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-21 14:16:35</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request One PC">e501d54347e1a650672b9dbe316d4317</application>
+        <file_path/>
+        <instance_id>3ed1822efb15ae101feef633beefdc27</instance_id>
+        <instance_name>dev347123</instance_name>
+        <name>sc_cat_item_category_13190c574761e650672b9dbe316d437a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request One PC">44328c1f4721e650672b9dbe316d4321</sc_cat_item><sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-21 14:16:35</sys_created_on><sys_id>13190c574761e650672b9dbe316d437a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Can We Help You?.Request One PC</sys_name><sys_package display_value="Request One PC" source="x_1756219_reques_0">e501d54347e1a650672b9dbe316d4317</sys_package><sys_policy/><sys_scope display_value="Request One PC">e501d54347e1a650672b9dbe316d4317</sys_scope><sys_update_name>sc_cat_item_category_13190c574761e650672b9dbe316d437a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-21 14:16:35</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1239489153</payload_hash>
+        <record_name>Can We Help You?.Request One PC</record_name>
+        <reverted_from/>
+        <source>e101d54347e1a650672b9dbe316d431c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-21 14:16:35</sys_created_on>
+        <sys_id>ca15585747a1e650672b9dbe316d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196f33408190000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-21 14:16:35</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>ce15585784a1e650f802caeb7a2a3569</update_guid>
+        <update_guid_history>ce15585784a1e650f802caeb7a2a3569:-1239489153,6505d457faa1e650d0106d86f902226d:-64206605,e3190c57e561e6509ab94fab6bc3718a:-1239489153</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.Request One PC">99c6c46347652a50672b9dbe316d43a0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-22 07:52:28</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0e8d8c79794c475880e1e933d5d1e010</sys_id>
+        <sys_metadata>13190c574761e650672b9dbe316d437a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Request One PC</sys_name>
+        <sys_package display_value="Request One PC" source="x_1756219_reques_0">e501d54347e1a650672b9dbe316d4317</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Request One PC">e501d54347e1a650672b9dbe316d4317</sys_scope>
+        <sys_scope_delete display_value="">7d24a8bd7b46421ab8da1286f40bd971</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_13190c574761e650672b9dbe316d437a</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_13190c574761e650672b9dbe316d437a">ca15585747a1e650672b9dbe316d436a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-22 07:52:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

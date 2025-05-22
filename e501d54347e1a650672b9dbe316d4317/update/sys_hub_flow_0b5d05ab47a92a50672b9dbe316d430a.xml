@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>Request One PC For Approval</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>request_one_pc_for_approval</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Request One PC For Approval</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-22 13:00:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0b5d05ab47a92a50672b9dbe316d430a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Request One PC For Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request One PC" source="x_1756219_reques_0">e501d54347e1a650672b9dbe316d4317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request One PC">e501d54347e1a650672b9dbe316d4317</sys_scope>
+        <sys_update_name>sys_hub_flow_0b5d05ab47a92a50672b9dbe316d430a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-22 13:02:04</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=0b5d05ab47a92a50672b9dbe316d430a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0b5d05ab47a92a50672b9dbe316d430a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=0b5d05ab47a92a50672b9dbe316d430a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0b5d05ab47a92a50672b9dbe316d430a^sys_idNOT IN875d05ab47a92a50672b9dbe316d430b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0b5d05ab47a92a50672b9dbe316d430a</id>
+        <name>Request One PC For Approval</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-22 13:00:54</sys_created_on>
+        <sys_id>875d05ab47a92a50672b9dbe316d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-22 13:00:54</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=875d05ab47a92a50672b9dbe316d430b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=0b5d05ab47a92a50672b9dbe316d430a^sys_idNOT IN48ad05ab47a92a50672b9dbe316d43cd,9cad05ab47a92a50672b9dbe316d43d1"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Request One PC For Approval">0b5d05ab47a92a50672b9dbe316d430a</model>
+        <model_id>0b5d05ab47a92a50672b9dbe316d430a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0b5d05ab47a92a50672b9dbe316d430a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-22 13:02:03</sys_created_on>
+        <sys_id>48ad05ab47a92a50672b9dbe316d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Request One PC">e501d54347e1a650672b9dbe316d4317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-22 13:02:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=48ad05ab47a92a50672b9dbe316d43cd"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Request One PC For Approval">0b5d05ab47a92a50672b9dbe316d430a</model>
+        <model_id>0b5d05ab47a92a50672b9dbe316d430a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0b5d05ab47a92a50672b9dbe316d430a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-22 13:02:03</sys_created_on>
+        <sys_id>9cad05ab47a92a50672b9dbe316d43d1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Request One PC">e501d54347e1a650672b9dbe316d4317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-22 13:02:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9cad05ab47a92a50672b9dbe316d43d1"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=0b5d05ab47a92a50672b9dbe316d430a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0b5d05ab47a92a50672b9dbe316d430a"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=0b5d05ab47a92a50672b9dbe316d430a^sys_idNOT IN5cad89ab47a92a50672b9dbe316d43d2"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Request One PC For Approval">0b5d05ab47a92a50672b9dbe316d430a</flow>
+        <generation_source/>
+        <name>Service Catalog</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-22 13:02:04</sys_created_on>
+        <sys_id>5cad89ab47a92a50672b9dbe316d43d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-22 13:02:04</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/61TTWsbMRD9K0anFnyQ7SaufQuBgCFtIE5zCWXRSrNrUa20lbSbuCb/vTP7YW/SpQSSmzR6M/PmzdPDgRmRgmFrdlvZyZVxj5ONZVOmbQRvhbnbl4CPcue0BIy3h2sdIls/HFh2L0xFgFTIX7l3lVUIyq4HNTOqqe3khJh8UpCJysTPhN0UIqcKdN6CARlBsXUmTACM/AjD2zcdgrZ5F3ieDghkzsP/CbxEvKPtzykrhFUiOr8/gbwr7qAojYhwDDqvwLP1jPMpq4nodh82qu1qRUH9fWUTYphokr3upsGj0gGL7e9PEbnTRnmwqDxSKIXHCpHqH149RVxa0u/1sl+dpsbnfMXlcr5aLud8seA8O0szmUm5/Drj57OzFeLGDTFKN75yx3BeeIpg1UDGfzXzINSNNafADm3XzlqIp6D/YPEvnHAZ4HCy0+F4TTqNenmIRWh8ad5uwHrMwd0gnCw2VuuFl+oxC/ZSkFu6bpcfT3D2boJzIthKd1NG7dBCbEGrFamhnLAP7cI9SExJotd5jomY5ExV2O9jvujYD7xbBdwWlOQIWnH/abY793jbr/NK24ZS92icFOZ4ExE7p1Uk/Q5MqFpgBjk6euzx3Lgi+V1RRvN7+l5JMxEBgvS6jBcy6hqOX/kv1VCh4wEFAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=0b5d05ab47a92a50672b9dbe316d430a"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=0b5d05ab47a92a50672b9dbe316d430a"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=0b5d05ab47a92a50672b9dbe316d430a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0b5d05ab47a92a50672b9dbe316d430a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=0b5d05ab47a92a50672b9dbe316d430a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0b5d05ab47a92a50672b9dbe316d430a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-22 13:02:03</sys_created_on>
+        <sys_id>9cad05ab47a92a50672b9dbe316d43d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Request One PC" source="x_1756219_reques_0">e501d54347e1a650672b9dbe316d4317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request One PC">e501d54347e1a650672b9dbe316d4317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-22 13:02:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0b5d05ab47a92a50672b9dbe316d430a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-22 13:02:04</sys_created_on>
+        <sys_id>d4ad05ab47a92a50672b9dbe316d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Request One PC" source="x_1756219_reques_0">e501d54347e1a650672b9dbe316d4317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request One PC">e501d54347e1a650672b9dbe316d4317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-22 13:02:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_0b5d05ab47a92a50672b9dbe316d430a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_0b5d05ab47a92a50672b9dbe316d430a"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=0b5d05ab47a92a50672b9dbe316d430a"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=0b5d05ab47a92a50672b9dbe316d430a"/>
+</record_update>

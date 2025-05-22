@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1d900fd747ede650672b9dbe316d43b2" label="PC Request" max_length="40" name="x_1756219_reques_0_pc_request" type="collection">
+        <element label="Work Date" max_length="40" name="work_date" type="glide_date"/>
+        <element label="Comments" max_length="500" name="comments" type="string"/>
+        <element label="Work State" max_length="40" name="work_state" type="boolean"/>
+        <element label="Request for" max_length="32" name="request_for" reference="sys_user" type="reference"/>
+        <element choice="1" label="Approval State" max_length="40" name="approval_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>
+                <element inactive_on_update="false" label="Reject" sequence="1" value="reject"/>
+            </choice>
+        </element>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Request By" max_length="32" name="request_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="PC Model" max_length="32" name="pc_model" reference="x_1756219_reques_0_pc_model" type="reference"/>
+        <element default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Request No" max_length="40" name="request_no" type="string" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="pc_model"/>
+        </index>
+        <index name="index2">
+            <element name="request_for"/>
+        </index>
+    </element>
+</database>

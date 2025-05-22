@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="afb098df4761e650672b9dbe316d43ac" label="PC Inventories" max_length="40" name="x_1756219_reques_0_pc_inventories" type="collection">
+        <element label="PC Model" max_length="32" name="pc_model" reference="x_1756219_reques_0_pc_model" type="reference"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="PC Serial Number" max_length="40" name="serial_number" type="string" use_dynamic_default="true"/>
+        <element choice="1" label="PC State" max_length="40" name="pc_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Available" sequence="0" value="available"/>
+                <element inactive_on_update="false" label="Assigned" sequence="1" value="assigned"/>
+            </choice>
+        </element>
+        <element label="PC Assignee" max_length="32" name="pc_assignee" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="pc_assignee"/>
+        </index>
+    </element>
+</database>

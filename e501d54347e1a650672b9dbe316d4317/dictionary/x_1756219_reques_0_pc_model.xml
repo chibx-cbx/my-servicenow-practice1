@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cb7e481f4761e650672b9dbe316d434e" label="PC Model" max_length="40" name="x_1756219_reques_0_pc_model" type="collection">
+        <element display="true" label="PC Model" max_length="40" name="model" type="string"/>
+    </element>
+</database>
