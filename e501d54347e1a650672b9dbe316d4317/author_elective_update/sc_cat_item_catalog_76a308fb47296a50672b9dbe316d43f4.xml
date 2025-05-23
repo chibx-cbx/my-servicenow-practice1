@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Complete Onboard Process">c1720c7b47296a50672b9dbe316d43ce</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-23 02:17:24</sys_created_on>
+        <sys_id>76a308fb47296a50672b9dbe316d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Complete Onboard Process</sys_name>
+        <sys_package display_value="Request One PC" source="x_1756219_reques_0">e501d54347e1a650672b9dbe316d4317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request One PC">e501d54347e1a650672b9dbe316d4317</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_76a308fb47296a50672b9dbe316d43f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-23 02:17:24</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request One PC">e501d54347e1a650672b9dbe316d4317</application>
+        <file_path/>
+        <instance_id>3ed1822efb15ae101feef633beefdc27</instance_id>
+        <instance_name>dev347123</instance_name>
+        <name>sc_cat_item_catalog_76a308fb47296a50672b9dbe316d43f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Complete Onboard Process">c1720c7b47296a50672b9dbe316d43ce</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-23 02:17:24</sys_created_on><sys_id>76a308fb47296a50672b9dbe316d43f4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Complete Onboard Process</sys_name><sys_package display_value="Request One PC" source="x_1756219_reques_0">e501d54347e1a650672b9dbe316d4317</sys_package><sys_policy/><sys_scope display_value="Request One PC">e501d54347e1a650672b9dbe316d4317</sys_scope><sys_update_name>sc_cat_item_catalog_76a308fb47296a50672b9dbe316d43f4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-23 02:17:24</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>313114658</payload_hash>
+        <record_name>Service Catalog.Complete Onboard Process</record_name>
+        <reverted_from/>
+        <source>260fcdab47a92a50672b9dbe316d43c8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-23 02:17:24</sys_created_on>
+        <sys_id>32a308fb47296a50672b9dbe316d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196faee50c20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-23 02:17:24</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>72a308fbf2296a50a495436d7a3357f7</update_guid>
+        <update_guid_history>72a308fbf2296a50a495436d7a3357f7:313114658</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Complete Onboard Process">f8d34cfb47296a50672b9dbe316d43c1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-23 02:18:05</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>3abf05e262574e1cafb5c4fe4a608710</sys_id>
+        <sys_metadata>76a308fb47296a50672b9dbe316d43f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Complete Onboard Process</sys_name>
+        <sys_package display_value="Request One PC" source="x_1756219_reques_0">e501d54347e1a650672b9dbe316d4317</sys_package>
+        <sys_parent display_value="">c1720c7b47296a50672b9dbe316d43ce</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request One PC">e501d54347e1a650672b9dbe316d4317</sys_scope>
+        <sys_scope_delete display_value="">7d24a8bd7b46421ab8da1286f40bd971</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_76a308fb47296a50672b9dbe316d43f4</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_76a308fb47296a50672b9dbe316d43f4">32a308fb47296a50672b9dbe316d43f8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-23 02:18:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
