@@ -15,7 +15,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Section Change</name>
+        <name>Practice 2 Change Script</name>
         <order/>
         <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
@@ -23,41 +23,41 @@
     return;
   }
 
+  g_form.setDisplay('geo', false);
+  g_form.setDisplay('country', false);
+  g_form.setDisplay('company', false);
   g_form.setDisplay('variable_1', false);
   g_form.setDisplay('variable_2', false);
   g_form.setDisplay('variable_3', false);
   g_form.setDisplay('variable_4', false);
   g_form.setDisplay('variable_5', false);
   g_form.setDisplay('variable_6', false);
-  g_form.setDisplay('variable_7', false);
-  g_form.setDisplay('variable_8', false);
-  g_form.setDisplay('variable_9', false);
-  g_form.setDisplay('variable_10', false);
- 
+  g_form.setDisplay('requested_by', false);
+  g_form.setDisplay('altemate_buyer', false);
+  g_form.setDisplay('first_payment_approver_display', false);
+
   if (newValue == 1) {
-    g_form.setDisplay('variable_1', true);
-    g_form.setDisplay('variable_2', true);
+    g_form.setDisplay('geo', true);
+    g_form.setDisplay('country', true);
+    g_form.setDisplay('company', true);
   }
   if (newValue == 2) {
+    g_form.setDisplay('variable_1', true);
+    g_form.setDisplay('variable_2', true);
     g_form.setDisplay('variable_3', true);
-    g_form.setDisplay('variable_4', true);
   }
   else if (newValue == 3) {
+    g_form.setDisplay('variable_4', true);
     g_form.setDisplay('variable_5', true);
-    g_form.setDisplay('variable_6', true);
   }
   else if (newValue == 4) {
-    g_form.setDisplay('variable_7', true);
+    g_form.setDisplay('variable_6', true);
   }
   else if (newValue == 5) {
-    g_form.setDisplay('variable_8', true);
+    g_form.setDisplay('requested_by', true);
+    g_form.setDisplay('altemate_buyer', true);
+    g_form.setDisplay('first_payment_approver_display', true);
   }
-  else if (newValue == 6) {
-    g_form.setDisplay('variable_9', true);
-    g_form.setDisplay('variable_10', true);
-  }
-
-
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -65,15 +65,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2b1b86d047f92e50672b9dbe316d4376</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Section Change</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Practice 2 Change Script</sys_name>
         <sys_overrides/>
         <sys_package display_value="Request One PC" source="x_1756219_reques_0">e501d54347e1a650672b9dbe316d4317</sys_package>
         <sys_policy/>
         <sys_scope display_value="Request One PC">e501d54347e1a650672b9dbe316d4317</sys_scope>
         <sys_update_name>catalog_script_client_2b1b86d047f92e50672b9dbe316d4376</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-27 02:33:27</sys_updated_on>
+        <sys_updated_on>2025-05-27 06:08:05</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
