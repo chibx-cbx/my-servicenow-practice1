@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Practice 2 ">d3c0ce5447b92e50672b9dbe316d4391</sc_cat_item>
+        <sc_category display_value="Hardware">d258b953c611227a0146101fb1be7c31</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-25 00:56:04</sys_created_on>
+        <sys_id>b2344e9847b92e50672b9dbe316d43dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware.Test Catalog Item 2 by Catalog Item</sys_name>
+        <sys_package display_value="Request One PC" source="x_1756219_reques_0">e501d54347e1a650672b9dbe316d4317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request One PC">e501d54347e1a650672b9dbe316d4317</sys_scope>
+        <sys_update_name>sc_cat_item_category_b2344e9847b92e50672b9dbe316d43dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-25 00:56:04</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
