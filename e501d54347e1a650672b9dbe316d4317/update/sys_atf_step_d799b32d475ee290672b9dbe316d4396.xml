@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Answer the questions on the form as follows:
+PC Request For = Beth Anglin
+and PC Model = Apple MacBook Pro 13
+and Start Work Date = 2025-06-23
+and Comments = test 1 for practice 6</description>
+        <display_name>Set Variable Values (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 03:15:44</sys_created_on>
+        <sys_id>d799b32d475ee290672b9dbe316d4396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="Request One PC" source="x_1756219_reques_0">e501d54347e1a650672b9dbe316d4317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request One PC">e501d54347e1a650672b9dbe316d4317</sys_scope>
+        <sys_update_name>sys_atf_step_d799b32d475ee290672b9dbe316d4396</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 03:15:44</sys_updated_on>
+        <table/>
+        <test display_value="Practice 6 For Request One PC By Reject">c4607361475ee290672b9dbe316d4333</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=d799b32d475ee290672b9dbe316d4396"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d799b32d475ee290672b9dbe316d4396</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 03:15:44</sys_created_on>
+        <sys_id>1f4ab3e1479ee290672b9dbe316d438d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 03:15:44</sys_updated_on>
+        <value/>
+        <variable display_value="Multi-row Variable Set">2fba49d673142300688e0d573cf6a748</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d799b32d475ee290672b9dbe316d4396</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 03:15:44</sys_created_on>
+        <sys_id>934ab3e1479ee290672b9dbe316d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 03:15:44</sys_updated_on>
+        <value>b51a096747a92a50672b9dbe316d43a9</value>
+        <variable display_value="Item">d164adb48703030070870cf888cb0b30</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d799b32d475ee290672b9dbe316d4396</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 03:15:44</sys_created_on>
+        <sys_id>df4ab3e1479ee290672b9dbe316d438d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 03:15:44</sys_updated_on>
+        <value>IO:027ac92747a92a50672b9dbe316d4330=46d44a23a9fe19810012d100cca80666^IO:1cea89a747a92a50672b9dbe316d4367=b9df8c5f4761e650672b9dbe316d4330^IO:2a2b01e747a92a50672b9dbe316d43f2=2025-06-23^IO:957bc5e747a92a50672b9dbe316d43fb=test 1 for practice 6^EQ</value>
+        <variable display_value="Variable Values">3f3525f48703030070870cf888cb0b37</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2e4229b48703030070870cf888cb0b5c^id=d799b32d475ee290672b9dbe316d4396"/>
+</record_update>
